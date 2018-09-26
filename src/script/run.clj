@@ -1,4 +1,4 @@
 (use 'ring.adapter.jetty)
-(require 'web-clojure.core)
+(require 'web_clojure.core)
 
-(run-jetty #'web_clojure.core/app {:port 8080})
+(run-jetty #'web-clojure.core/app {:port 8080})

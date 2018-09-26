@@ -1,7 +1,7 @@
 (defproject web-clojure "0.1.0-SNAPSHOT"
   :description "This is a simple web app"
-  :dependencies [[org.clojure/clojure "1.8.0"]
-    [org.clojure/clojure-contrib "1.8.0"]
+  :dependencies [[org.clojure/clojure "1.10.0-alpha8"]
+    [org.clojure/clojure-contrib "1.2.0"]
     [ring/ring-core "0.2.5"]
     [ring/ring-devel "0.2.5"]
     [ring/ring-jetty-adapter "0.2.5"]

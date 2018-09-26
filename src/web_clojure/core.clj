@@ -15,7 +15,7 @@
     [:body content]
   )))
 ;;Lets create a form that will get the userdata
-(defn view-input[]
+(defn view-input []
   (view-layout
     [:h2 "Let us add two numbers"]
     [:form {:method "post" action "/"}
@@ -45,7 +45,7 @@
     (view-input)
   )
   (POST "/" [a b]
-    (let [[a b] (parse-input ab) sum (+ a b)]
+    (let [[a b] (parse-input a b) sum (+ a b)]
       (view-output a b sum))
   )
 )
